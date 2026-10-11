@@ -1,0 +1,19 @@
+{
+  "id": "icarian-cup-heat",
+  "title": "伊卡洛斯杯 · HEAT 海上竞速",
+  "description": "一艘共享玩家船与 Legends 自动对手的单程竞速；双视图赛事面板、GM 授权与自动裁决、可恢复比赛存档。",
+  "version": "0.1.0",
+  "url": "https://github.com/litchicalpis/icarian-cup-heat",
+  "manifest": "https://raw.githubusercontent.com/litchicalpis/icarian-cup-heat/main/module.json",
+  "download": "https://github.com/litchicalpis/icarian-cup-heat/releases/download/v0.1.0/icarian-cup-heat-0.1.0.zip",
+  "authors": [{"name": "Zea Team"}],
+  "compatibility": {"minimum": "12", "maximum": "12"},
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/icarian-cup.css"],
+  "languages": [
+    {"lang": "zh-CN", "name": "简体中文", "path": "lang/zh-CN.json"},
+    {"lang": "en", "name": "中文默认", "path": "lang/zh-CN.json"}
+  ],
+  "socket": true,
+  "readme": "README.md"
+}
